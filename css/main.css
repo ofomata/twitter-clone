@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    align-self: flex-start;
+    top: 0;
+    margin: .8em auto;
+}
+.main-section{
+    flex-basis: 45%;
+    border-left: .1px solid #E1E8ED;
+    border-right: .1px solid #E1E8ED;
+}
+.right-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    align-self: flex-start;
+    top: 0;
+    margin: .8em auto;
+    margin-left: 1em;
+}
+.logo i{
+    font-size: 2.3em;
+    color: black;
+    padding: .3em;
+}
+.logo i:hover{
+    background: #E1E8ED;
+    border-radius: 50%;
+}
+.icons a{
+    display: flex;
+    align-items: center;
+    padding: 1em .7em;
+    gap: 1em;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.icons a:hover{
+    background-color: #E1E8ED;
+    border-radius: 8em;
+    margin-right: 6em;
+}
+.icons i{
+    font-size: 1.4rem;
+}
+.more img{
+    width: 1.4em;
+    margin-right: -.12em;
+    margin-left: -.29em;
+}
+.active-icon{
+    font-weight: bold;
+}
+.cta-btn{
+    margin: 2em 0;
+}
+.cta-btn a{
+    text-decoration: none;
+    color: white;
+    background: #1DA1F2;
+    padding: .95em 5em;
+    border-radius: 5em;
+    font-weight: bold;
+}
+.cta-btn a:hover{
+    background: #0f8ad6;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .7em .7em;
+}
+.footer:hover{
+    background: #E1E8ED;
+    border-radius: 8em;
+}
+.profilepic img{
+    width: 2.5em;
+    border-radius: 50%;
+}
+.desc{
+    margin-right: 7em;
+}
+.desc p{
+    font-weight: bold;
+}
+.desc small{
+    color: #657786;
+}
+.fa-ellipsis{
+    font-size: .95em;
+    margin-right: 1em;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    gap: .7em;
+    background: #F5F8FA;
+    padding: .8em 0;
+    padding-left: 1em;
+    padding-right: 7em;
+    border-radius: 10em;
+    position: sticky;
+    align-self: flex-start;
+    top: 0;
+}
+input{
+    outline: none;
+    border: none;
+    background: #F5F8FA;
+}
+.search-box i{
+    font-size: 1rem;
+    color: #657786;
+}
+.sub-btn{
+    background: #F5F8FA;
+    padding: .8em;
+    border-radius: 1em;
+    margin-top: 1em;
+    padding-bottom: 1.2em;
+}
+.sub-btn h1{
+    font-size: 1.2rem;
+}
+.sub-btn .subhead{
+    margin: .6em 0;
+    font-weight: bold;
+    font-size: .9rem;
+    margin-bottom: 1em;
+}
+.sub-btn a{
+    color: white;
+    background: black;
+    padding: .6em 1em;
+    border-radius: 3em;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: bold;
+}
+.trend-section{
+    background: #F5F8FA;
+    padding: .8em;
+    border-radius: 1em;
+    margin-top: 1em;
+}
+.trend-section h1{
+    font-size: 1.2rem;
+    margin-bottom: .8em;
+}
+.trend-section p{
+    font-weight: bold;
+    font-size: .9rem;
+    margin: .2em 0;
+}
+.sub-trend{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+.sub-trend .fa-ellipsis{
+    color: #657786;
+}
+span small{
+    color: #657786;
+    font-size: .79rem;
+    margin-top: 1em;
+}
+.trend-section a{
+    text-decoration: none;
+    font-size: .8rem;
+    color: #1DA1F2;
+}
+.follow-section{
+    background: #F5F8FA;
+    padding: .8em;
+    border-radius: 1em;
+    margin-top: 1em; 
+}
+.follow-section h1{
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+}
+.accounts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.accounts img{
+    width: 2.3em;
+    border-radius: 50%;
+}
+.accounts span{
+    margin-right: 4em;
+}
+.accounts p{
+    font-weight: bold;
+    font-size: .9rem;
+}
+.accounts small{
+    color: #657786;
+    font-size: .79rem;
+}
+.accounts a{
+    text-decoration: none;
+    font-size: .89rem;
+    font-weight: bold;
+    color: white;
+    background: black;
+    padding: .5em 1em;
+    border-radius: 3em;
+}
+.follow-section .link{
+    text-decoration: none;
+    font-size: .8rem;
+    color: #1DA1F2;
+}
+.right-footer{
+    margin: 1em;
+}
+.right-footer a{
+    text-decoration: none;
+    color: #657786;
+    font-size: .85rem;
+    margin-right: .5em;
+}
+.right-footer .fa-ellipsis{
+    font-size: .7rem;
+    color: #657786;
+    align-items: center;
+}
+/*.main-hero{
+    position: sticky;
+    align-self: flex-start;
+    top: 0;
+}*/
+.main-section h2{
+    font-size: 1.2rem;
+    margin-left: 1em;
+    margin-top: .8em;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.hero a{
+    text-decoration: none;
+    font-size: .85rem;
+    color: #657786;
+    font-weight: bold;
+
+}
+a.active-link{
+    text-decoration: none;
+    font-size: .85rem;
+    color: black;
+    font-weight: bold;
+}
+.active-link{
+    position: relative;
+}
+.active-link::before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    bottom: -15.8px;
+    border: 1px solid #1DA1F2;
+    background: #1DA1F2;
+}
+.hero-hero{
+    border-bottom: .1px solid #E1E8ED;
+}
+.post-section{
+    display: flex;
+    align-items: center;
+    gap: .8em;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.post-section img{
+    width: 2.5em;
+    border-radius: 50%;
+}
+textarea{
+    outline: none;
+    border: none;
+    resize: none;
+    margin-top: 1.6em;
+}
+.post-icons img{
+    width: 1em;
+    padding: .4em;
+}
+.post-icons img:hover{
+    background: #dceffa;
+    border-radius: 50%;
+}
+.post-icons i{
+    color: #1DA1F2;
+    font-size: 1rem;
+    padding: .4em;
+}
+.post-icons i:hover{
+    background: #dceffa;
+    border-radius: 50%;
+}
+.post-icons{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1em 4em;
+}
+.post-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-footer a{
+    margin-right: 1.5em;
+    text-decoration: none;
+    color: white;
+    background: #8acffa;
+    padding: .7em 1.2em;
+    border-radius: 5em;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.post-section-wrapper{
+    border-bottom: .1px solid #E1E8ED;
+}
+.refresh{
+    margin: .7em;
+    text-align: center;
+}
+.refresh a{
+    font-size: .8rem;
+    color: #1DA1F2;
+    text-decoration: none;
+}
+.refresh-wrapper{
+    border-bottom: .1px solid #E1E8ED;
+}
+.feed-wrapper{
+    border-bottom: .1px solid #E1E8ED;
+}
+.feed{
+    display: flex;
+    align-items: start;
+    gap: .3em;
+    margin-top: .5em;
+    margin-left: 1em;
+}
+.feed .profile{
+    width: 2.5em;
+    border-radius: 50%;
+}
+p img{
+    width: .8em;
+}
+small img{
+    width: .2em;
+}
+.feed small{
+    display: flex;
+    align-items: center;
+    gap: .3em;
+    color: #657786;
+    font-size: .85rem;
+}
+.feed p{
+    display: flex;
+    align-items: center;
+    gap: .2em;
+    margin-left: .3em;
+    font-weight: bold;
+    font-size: .9rem;
+}
+.feed i{
+    font-size: .8rem;
+    color: #657786;
+    margin-left: 13.8em;
+}
+.feed-content{
+    margin-left: 4.1em;
+    margin-top: -1.3em;
+}
+.feed-content p{
+    font-size: .9rem;
+    color: rgb(80, 79, 79);
+    margin-bottom: .8em;
+}
+.feed-content img{
+    border-radius: .8em;
+    width: 25em;
+    margin-bottom: .6em;
+    object-fit: cover;
+}
+.feed-action{
+    margin-left: -.5em;
+    display: flex;
+    align-items: center;
+    margin-bottom: .6em;
+}
+.feed-action a{
+    text-decoration: none;
+    color: #657786;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    font-size: .7rem;
+}
+.feed-action i{
+    font-size: .77rem;
+    color: #657786;
+    margin-left: 6em;
+}
+.profile-retweet{
+    width: 1em;
+    border-radius: 50%;
+}
+.retweet{
+    padding: .7em;
+    margin-left: 4em;
+    margin-right: 5em;
+    border: 1px solid #E1E8ED;
+    border-radius: 1em;
+    margin-bottom: .6em;
+}
+.feed-retweet{
+    font-size: .85rem;
+    color: rgb(80, 79, 79);
+    margin-top: -.45em;
+}
+.retweet .feed p{
+    display: flex;
+    align-items: center;
+    gap: .2em;
+    margin-left: .3em;
+    font-weight: bold;
+    font-size: .8rem;
+}
+.retweet .feed small{
+    display: flex;
+    align-items: center;
+    gap: .3em;
+    color: #657786;
+    font-size: .75rem;
+}
+.retweet .feed{
+    margin-left: unset;
+    margin-top: -.1em;
+    margin-bottom: -.4em;
+}
+.love-icon i{
+    color: red;
+    font-size: .9rem;
+}
